@@ -1,5 +1,5 @@
 //COLORS
-  
+
   //WHITE
   $base-white:#FFFFFF;
   $dark-white:#FAFAFA;
@@ -16,12 +16,21 @@
   $base-blue:#A7B8C5;
 
 
-//FONTS
-$sans-regular:400 "Open Sans", sans-seirf;
-$sans-bold:700 "Open Sans", sans-seif;
-$sans-italic:italic 400 "Open Sans", sans-serif;
+//TYPE PROPERTIES
 
-$serif-font: "Crimson Text", serif;
+  //SIZE
+  $fontsize-tiny:11px;
+  $fontsize-small:14px;
+  $fontsize-base:15px;
+  $fontsize-medium:18px;
+  $fontsize-big:24px;
+  $fontsize-huge:30px;
+  $fontsize-bigger:35px;
+  $fontsize-toobig:45px;
+
+  //FONT STYLES
+  $sans-serif-font:"Open Sans", Helvetica, sans-serif;
+  $serif-font:"Crimson Text", Georgia, serif;
 
 
 /*FONTS*/

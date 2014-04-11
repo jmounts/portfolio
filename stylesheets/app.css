@@ -7792,19 +7792,14 @@ th.hide-for-touch {
 }
 
 /*FONTS*/
-/* line 29, ../scss/_variables.scss */
+/* line 38, ../scss/_variables.scss */
 h1 {
   font-size: 72px;
   color: #676767;
 }
 
 /*Headers*/
-/* line 36, ../scss/_variables.scss */
+/* line 45, ../scss/_variables.scss */
 .header {
   background: #4b4b4b;
-}
-
-/* line 2, ../scss/_home.scss */
-h3 {
-  font: 400 "Open Sans", sans-seirf;
 }
