@@ -1,0 +1,38 @@
+//COLORS
+  
+  //WHITE
+  $base-white:#FFFFFF;
+  $dark-white:#FAFAFA;
+
+  //GRAY
+  $base-gray:#676767;
+  $dark-gray:#4B4B4B;
+  $light-gray:#D7D7D7;
+
+  //ORANGE
+  $base-orange:#FF3A19;
+
+  //BLUE
+  $base-blue:#A7B8C5;
+
+
+//FONTS
+$sans-regular:400 "Open Sans", sans-seirf;
+$sans-bold:700 "Open Sans", sans-seif;
+$sans-italic:italic 400 "Open Sans", sans-serif;
+
+$serif-font: "Crimson Text", serif;
+
+
+/*FONTS*/
+
+h1 {
+  font-size: 72px;
+  color: $base-gray;
+}
+
+/*Headers*/
+
+.header {
+  background: $dark-gray;
+}
