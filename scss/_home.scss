@@ -17,6 +17,18 @@ h3{
   color: $light-gray;
   font:$sans-serif-font;
   padding-top: 50px;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.aboutnavigation {
+  color: $dark-gray;
+  font:$sans-serif-font;
+  padding-top: 50px;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 /*Header*/
@@ -44,4 +56,16 @@ h3{
 
 .title {
   text-align: center;
+}
+
+/*ABOUT*/
+
+.about {
+  background: $base-blue url(./images/bkg-blue-01.png) no-repeat top left;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  min-height: 600px;
+  height:100%;
+  margin: 0;
 }
