@@ -1,4 +1,47 @@
+/*FONTS*/
+
+h1 {
+  color: $light-gray;
+  font-size: 36px;
+}
 
 h3{
+  color: $light-gray;
   font:$sans-regular;
+  font-size: 18px;
+}
+
+/*Navigation*/
+
+.navigation {
+  color: $light-gray;
+  font:$sans-regular;
+  padding-top: 50px;
+}
+
+/*Header*/
+
+.header {
+  background: $base-gray url(./images/bkg-gray-01.png) no-repeat top left;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  min-height: 600px;
+  height:100%;
+  margin: 0;
+  text-align: center;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 215px;
+}
+
+.name {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
 }
