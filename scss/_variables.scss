@@ -1,5 +1,5 @@
 //COLORS
-  
+
   //WHITE
   $base-white:#FFFFFF;
   $dark-white:#FAFAFA;
@@ -16,9 +16,36 @@
   $base-blue:#A7B8C5;
 
 
-//FONTS
-$sans-regular:400 "Open Sans", sans-seirf;
-$sans-bold:700 "Open Sans", sans-seif;
-$sans-italic:italic 400 "Open Sans", sans-serif;
+//TYPE PROPERTIES
 
+  //SIZE
+  $fontsize-tiny:11px;
+  $fontsize-small:14px;
+  $fontsize-base:15px;
+  $fontsize-medium:18px;
+  $fontsize-big:24px;
+  $fontsize-huge:30px;
+  $fontsize-bigger:35px;
+  $fontsize-toobig:45px;
+
+<<<<<<< HEAD
 $serif-font: "Crimson Text", serif;
+=======
+  //FONT STYLES
+  $sans-serif-font:"Open Sans", Helvetica, sans-serif;
+  $serif-font:"Crimson Text", Georgia, serif;
+
+
+/*FONTS*/
+
+h1 {
+  font-size: 72px;
+  color: $base-gray;
+}
+
+/*Headers*/
+
+.header {
+  background: $dark-gray;
+}
+>>>>>>> 433d6c91b884a21af1afab68c8a673921d8d611c
