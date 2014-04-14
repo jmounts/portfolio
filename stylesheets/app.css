@@ -7792,21 +7792,16 @@ th.hide-for-touch {
 }
 
 /*FONTS*/
-<<<<<<< HEAD
 /* line 3, ../scss/_home.scss */
-=======
-/* line 38, ../scss/_variables.scss */
->>>>>>> 433d6c91b884a21af1afab68c8a673921d8d611c
 h1 {
   color: #d7d7d7;
   font-size: 36px;
 }
 
-<<<<<<< HEAD
 /* line 8, ../scss/_home.scss */
 h3 {
   color: #d7d7d7;
-  font: 400 "Open Sans", sans-seirf;
+  font: "Open Sans", Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -7814,7 +7809,7 @@ h3 {
 /* line 16, ../scss/_home.scss */
 .navigation {
   color: #d7d7d7;
-  font: 400 "Open Sans", sans-seirf;
+  font: "Open Sans", Helvetica, sans-serif;
   padding-top: 50px;
 }
 
@@ -7847,10 +7842,3 @@ h3 {
 .title {
   text-align: center;
 }
-=======
-/*Headers*/
-/* line 45, ../scss/_variables.scss */
-.header {
-  background: #4b4b4b;
-}
->>>>>>> 433d6c91b884a21af1afab68c8a673921d8d611c
