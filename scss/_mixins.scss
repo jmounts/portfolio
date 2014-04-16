@@ -1,0 +1,11 @@
+@mixin transition($type, $length, $ease ){
+  -webkit-transition: $type, $length, $ease;
+  -moz-transition: $type, $length, $ease;
+  transition: $type, $length, $ease;
+}
+
+@mixin backgroundSize($size){
+  -webkit-background-size:$size;
+  -moz-background-size:$size;
+  background-size:$size;
+}

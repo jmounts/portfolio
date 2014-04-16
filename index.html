@@ -7,23 +7,12 @@
     <title>Jeff Mounts' Portfolio</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
+     <script src="js/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
   </head>
   <body>
     <header class="header">
-      <div class="row">
-        <div class="large-9 small-12 columns">
-          <p></p>
-        </div>
-        <div class="large-1 small-12 columns">
-          <a href="#/about" class="navigation">About</a>
-        </div>
-        <div class="large-1 small-12 columns">  
-          <a href="#/work" class="navigation">Work</a>
-        </div>  
-        <div class="large-1 small-12 columns">
-          <a href="#/contact" class="navigation">Contact</a>
-        </div> 
-      </div>  
       <div class="row">
         <div class="large-12 columns">
           <img class="logo" src="./images/logo.png" alt="Logo">
@@ -32,22 +21,37 @@
         </div>
       </div>
     </header>
+    <nav class="nav">
+      <div class="row">
+        <div class="large-8 small-11 columns">
+            <img src="./images/logo-small.png" alt="small logo">
+            <div class="wordmark">
+            <p>Jeff Mounts</p>
+          </div>
+        </div>
+        <div class="magellan-container" data-magellan-expedition="fixed" data-options="destination_threshold:65;throttle_delay:0;" style="position: fixed; top: 0px;">
+          <dl class="sub-nav">
+            <dd data-magellan-arrival="about" class=""><a href="#about">About</a></dd>
+            <dd data-magellan-arrival="work" class="active"><a href="#work">Work</a></dd>
+            <dd data-magellan-arrival="contact" class=""><a href="#contact">Contact</a></dd>
+          </dl>         
+        </div>
+      </div> 
+    </nav>
     <div class="about">
       <div class="row">
-        <div class="large-9 small-12 columns">
-          <img src="./images/logo-small.png" alt="small logo">
+        <div class="large-4">
+          <img class="largecloud" src="./images/cloud-large.png" alt="large cloud">
         </div>
-        <div class="large-1 small-12 columns">
-          <a href="#/about" class="aboutnavigation">About</a>
-        </div>
-        <div class="large-1 small-12 columns">  
-          <a href="#/work" class="aboutnavigation">Work</a>
-        </div>  
-        <div class="large-1 small-12 columns">
-          <a href="#/contact" class="aboutnavigation">Contact</a>
-        </div> 
       </div>
     </div>
-
+    <div class="work">
+      <div class="row">
+      </div>
+    </div>
+    <div class="contact">
+      <div class="row">
+      </div>
+    </div>
   </body>
 </html>

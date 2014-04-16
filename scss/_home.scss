@@ -7,38 +7,27 @@ h1 {
 
 h3{
   color: $light-gray;
-  font:$sans-serif-font;
-  font-size: 18px;
+  font-family: $sans-serif-font;
+  font-size: $fontsize-medium;
 }
 
 /*Navigation*/
 
-.navigation {
-  color: $light-gray;
-  font:$sans-serif-font;
-  padding-top: 50px;
-  -webkit-transition: opacity 0.3s ease;
-  -moz-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-}
-
-.aboutnavigation {
+.nav {
+  position: fixed;
+  width: 100%;
   color: $dark-gray;
-  font:$sans-serif-font;
+  font-family:$sans-serif-font;
   padding-top: 50px;
-  -webkit-transition: opacity 0.3s ease;
-  -moz-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
+  @include transition(opacity, 0.3s, ease);
 }
 
 /*Header*/
 
 .header {
-  background: $base-gray url(./images/bkg-gray-01.png) no-repeat top left;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  background-size:cover;
-  min-height: 600px;
+  background: $base-gray url(../images/bkg-gray-01.png) no-repeat top left;
+  @include backgroundSize(cover);
+  min-height: 612px;
   height:100%;
   margin: 0;
   text-align: center;
@@ -47,7 +36,7 @@ h3{
 .logo {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 215px;
+  padding-top: 275px;
 }
 
 .name {
@@ -61,11 +50,41 @@ h3{
 /*ABOUT*/
 
 .about {
-  background: $base-blue url(./images/bkg-blue-01.png) no-repeat top left;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  background-size:cover;
-  min-height: 600px;
+  background: $base-blue url(../images/bkg-blue-01.png) no-repeat top left;
+  @include backgroundSize(cover);
+  min-height: 612px;
   height:100%;
   margin: 0;
 }
+
+.wordmark {
+  color: $dark-gray;
+  font-family: $sans-serif-font;
+  font-size: $fontsize-medium;
+  text-align: left;
+}
+
+.largecloud {
+  padding-top: 150px;
+}
+
+/*WORK*/
+
+.work {
+  background: $light-gray url(../images/bkg-ltgray-01.png) no-repeat top left;
+  @include backgroundSize(cover);
+  min-height: 612px;
+  height:100%;
+  margin: 0;
+}
+
+/*CONTACT*/
+
+.contact {
+  background: $base-gray url(../images/bkg-gray-01.png) no-repeat top left;
+  @include backgroundSize(cover);
+  min-height: 612px;
+  height:100%;
+  margin: 0;
+}
+

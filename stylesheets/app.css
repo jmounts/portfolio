@@ -7801,69 +7801,98 @@ h1 {
 /* line 8, ../scss/_home.scss */
 h3 {
   color: #d7d7d7;
-  font: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 18px;
 }
 
 /*Navigation*/
 /* line 16, ../scss/_home.scss */
-.navigation {
-  color: #d7d7d7;
-  font: "Open Sans", Helvetica, sans-serif;
-  padding-top: 50px;
-  -webkit-transition: opacity 0.3s ease;
-  -moz-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-}
-
-/* line 25, ../scss/_home.scss */
-.aboutnavigation {
+.nav {
+  position: fixed;
+  width: 100%;
   color: #4b4b4b;
-  font: "Open Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   padding-top: 50px;
-  -webkit-transition: opacity 0.3s ease;
-  -moz-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
+  -webkit-transition: opacity, 0.3s, ease;
+  -moz-transition: opacity, 0.3s, ease;
+  transition: opacity, 0.3s, ease;
 }
 
 /*Header*/
-/* line 36, ../scss/_home.scss */
+/* line 27, ../scss/_home.scss */
 .header {
-  background: #676767 url(./images/bkg-gray-01.png) no-repeat top left;
+  background: #676767 url(../images/bkg-gray-01.png) no-repeat top left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  min-height: 600px;
+  min-height: 612px;
   height: 100%;
   margin: 0;
   text-align: center;
 }
 
-/* line 47, ../scss/_home.scss */
+/* line 36, ../scss/_home.scss */
 .logo {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 215px;
+  padding-top: 275px;
 }
 
-/* line 53, ../scss/_home.scss */
+/* line 42, ../scss/_home.scss */
 .name {
   text-align: center;
 }
 
-/* line 57, ../scss/_home.scss */
+/* line 46, ../scss/_home.scss */
 .title {
   text-align: center;
 }
 
 /*ABOUT*/
-/* line 63, ../scss/_home.scss */
+/* line 52, ../scss/_home.scss */
 .about {
-  background: #a7b8c5 url(./images/bkg-blue-01.png) no-repeat top left;
+  background: #a7b8c5 url(../images/bkg-blue-01.png) no-repeat top left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  min-height: 600px;
+  min-height: 612px;
+  height: 100%;
+  margin: 0;
+}
+
+/* line 60, ../scss/_home.scss */
+.wordmark {
+  color: #4b4b4b;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* line 67, ../scss/_home.scss */
+.largecloud {
+  padding-top: 150px;
+}
+
+/*WORK*/
+/* line 73, ../scss/_home.scss */
+.work {
+  background: #d7d7d7 url(../images/bkg-ltgray-01.png) no-repeat top left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 612px;
+  height: 100%;
+  margin: 0;
+}
+
+/*CONTACT*/
+/* line 83, ../scss/_home.scss */
+.contact {
+  background: #676767 url(../images/bkg-gray-01.png) no-repeat top left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 612px;
   height: 100%;
   margin: 0;
 }
