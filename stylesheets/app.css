@@ -7794,11 +7794,17 @@ th.hide-for-touch {
 /*FONTS*/
 /* line 3, ../scss/_home.scss */
 h1 {
-  color: #d7d7d7;
-  font-size: 36px;
+  color: #4b4b4b;
+  font-size: 72px;
 }
 
 /* line 8, ../scss/_home.scss */
+h2 {
+  color: #d7d7d7;
+  font-size: 35px;
+}
+
+/* line 13, ../scss/_home.scss */
 h3 {
   color: #d7d7d7;
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -7806,7 +7812,7 @@ h3 {
 }
 
 /*Navigation*/
-/* line 16, ../scss/_home.scss */
+/* line 21, ../scss/_home.scss */
 .nav {
   position: fixed;
   width: 100%;
@@ -7818,8 +7824,16 @@ h3 {
   transition: opacity, 0.3s, ease;
 }
 
+/* line 30, ../scss/_home.scss */
+.wordmark {
+  color: #4b4b4b;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
 /*Header*/
-/* line 27, ../scss/_home.scss */
+/* line 39, ../scss/_home.scss */
 .header {
   background: #676767 url(../images/bkg-gray-01.png) no-repeat top left;
   -webkit-background-size: cover;
@@ -7831,25 +7845,25 @@ h3 {
   text-align: center;
 }
 
-/* line 36, ../scss/_home.scss */
+/* line 48, ../scss/_home.scss */
 .logo {
   margin-left: auto;
   margin-right: auto;
   padding-top: 275px;
 }
 
-/* line 42, ../scss/_home.scss */
+/* line 54, ../scss/_home.scss */
 .name {
   text-align: center;
 }
 
-/* line 46, ../scss/_home.scss */
+/* line 58, ../scss/_home.scss */
 .title {
   text-align: center;
 }
 
 /*ABOUT*/
-/* line 52, ../scss/_home.scss */
+/* line 64, ../scss/_home.scss */
 .about {
   background: #a7b8c5 url(../images/bkg-blue-01.png) no-repeat top left;
   -webkit-background-size: cover;
@@ -7860,21 +7874,19 @@ h3 {
   margin: 0;
 }
 
-/* line 60, ../scss/_home.scss */
-.wordmark {
-  color: #4b4b4b;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  font-size: 18px;
-  text-align: left;
-}
-
-/* line 67, ../scss/_home.scss */
+/* line 72, ../scss/_home.scss */
 .largecloud {
   padding-top: 150px;
+  text-align: right;
+}
+
+/* line 77, ../scss/_home.scss */
+.cloudsmall {
+  text-align: right;
 }
 
 /*WORK*/
-/* line 73, ../scss/_home.scss */
+/* line 83, ../scss/_home.scss */
 .work {
   background: #d7d7d7 url(../images/bkg-ltgray-01.png) no-repeat top left;
   -webkit-background-size: cover;
@@ -7886,7 +7898,7 @@ h3 {
 }
 
 /*CONTACT*/
-/* line 83, ../scss/_home.scss */
+/* line 93, ../scss/_home.scss */
 .contact {
   background: #676767 url(../images/bkg-gray-01.png) no-repeat top left;
   -webkit-background-size: cover;

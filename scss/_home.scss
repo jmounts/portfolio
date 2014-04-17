@@ -1,8 +1,13 @@
 /*FONTS*/
 
 h1 {
+  color: $dark-gray;
+  font-size: 72px;
+}
+
+h2 {
   color: $light-gray;
-  font-size: 36px;
+  font-size: $fontsize-bigger;
 }
 
 h3{
@@ -20,6 +25,13 @@ h3{
   font-family:$sans-serif-font;
   padding-top: 50px;
   @include transition(opacity, 0.3s, ease);
+}
+
+.wordmark {
+  color: $dark-gray;
+  font-family: $sans-serif-font;
+  font-size: $fontsize-medium;
+  text-align: left;
 }
 
 /*Header*/
@@ -57,15 +69,13 @@ h3{
   margin: 0;
 }
 
-.wordmark {
-  color: $dark-gray;
-  font-family: $sans-serif-font;
-  font-size: $fontsize-medium;
-  text-align: left;
-}
-
 .largecloud {
   padding-top: 150px;
+  text-align: right;
+}
+
+.cloudsmall {
+  text-align: right;
 }
 
 /*WORK*/
