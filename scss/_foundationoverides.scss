@@ -1,3 +1,13 @@
 [data-magellan-expedition], [data-magellan-expedition-clone] {
   background-color: transparent;
+  padding: 0px;
+}
+
+.sub-nav dd.active a{
+  background:transparent url('../images/bubble.png') no-repeat center center;
+
+  &:hover{
+    background:transparent;
+    opacity:0.8;
+  }
 }

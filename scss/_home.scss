@@ -3,6 +3,8 @@
 h1 {
   color: $dark-gray;
   font-size: 72px;
+  font-weight: 600;
+  text-align: center;
 }
 
 h2 {
@@ -11,9 +13,23 @@ h2 {
 }
 
 h3{
+  color: $dark-gray;
+  font-size: $fontsize-bigger;
+  font-weight: 800;
+}
+
+h4{
   color: $light-gray;
-  font-family: $sans-serif-font;
   font-size: $fontsize-medium;
+}
+
+p{
+  color: $dark-gray;
+  font-size: 16px;
+}
+
+.small-text{
+  font-size: 18px;
 }
 
 /*Navigation*/
@@ -39,9 +55,8 @@ h3{
 .header {
   background: $base-gray url(../images/bkg-gray-01.png) no-repeat top left;
   @include backgroundSize(cover);
-  min-height: 612px;
+  min-height: 615px;
   height:100%;
-  margin: 0;
   text-align: center;
 }
 
@@ -64,24 +79,49 @@ h3{
 .about {
   background: $base-blue url(../images/bkg-blue-01.png) no-repeat top left;
   @include backgroundSize(cover);
-  min-height: 612px;
+  min-height: 615px;
   height:100%;
-  margin: 0;
 }
 
 .largecloud {
-  padding-top: 150px;
+  padding-top: 115px;
 }
 
-.cloudsmall {
-  text-align: right;
+.smallcloud{
+  padding-top: 80px;
+}
+
+.smallcloud2{
+  padding-top: 60px;
+  margin: 0px -45px;
+}
+
+.righttype {
+  padding-top: -60px;
+}
+
+.darkgray {
+  color: $dark-gray;
+}
+
+.bottom-word {
+  margin-top: -20px;
+}
+.orange {
+  color: $base-orange;
+}
+
+.righttype {
+    margin-top: -100px;
+}
+
+.hello {
+  margin-top: -300px;
 }
 
 .software {
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 50px;
 }
-
 /*WORK*/
 
 .work {
@@ -109,3 +149,10 @@ h3{
   margin: 0;
 }
 
+.line {
+  padding-top: 175px;
+}
+
+.drop {
+  margin-top: -155px;
+}
