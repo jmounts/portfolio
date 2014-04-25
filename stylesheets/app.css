@@ -7797,14 +7797,27 @@ th.hide-for-touch {
   padding: 0px;
 }
 
-/* line 6, ../scss/_foundationoverides.scss */
-.sub-nav dd.active a {
-  background: transparent url("../images/bubble.png") no-repeat center center;
+/* line 7, ../scss/_foundationoverides.scss */
+[data-magellan-expedition-clone] {
+  display: none;
 }
-/* line 9, ../scss/_foundationoverides.scss */
+
+/* line 11, ../scss/_foundationoverides.scss */
+.sub-nav {
+  height: 50px;
+  margin-top: 15px;
+}
+
+/* line 16, ../scss/_foundationoverides.scss */
+.sub-nav dd.active a {
+  background: transparent url("../images/bubble.png") no-repeat 50% 63%;
+  background-size: 103%;
+  padding: 30px 15px;
+}
+/* line 21, ../scss/_foundationoverides.scss */
 .sub-nav dd.active a:hover {
   background: transparent;
-  opacity: 0.8;
+  opacity: 1.2;
 }
 
 /*FONTS*/
@@ -7849,11 +7862,11 @@ p {
 /*Navigation*/
 /* line 37, ../scss/_home.scss */
 .nav {
-  position: fixed;
   width: 100%;
   color: #4b4b4b;
   font-family: "Open Sans", Helvetica, sans-serif;
-  padding-top: 50px;
+  padding-top: 0px;
+  margin: 0px;
   -webkit-transition: opacity, 0.3s, ease;
   -moz-transition: opacity, 0.3s, ease;
   transition: opacity, 0.3s, ease;
@@ -7874,127 +7887,165 @@ p {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 615px;
   height: 100%;
   text-align: center;
 }
 
-/* line 63, ../scss/_home.scss */
+/* line 64, ../scss/_home.scss */
 .logo {
   margin-left: auto;
   margin-right: auto;
   padding-top: 275px;
 }
 
-/* line 69, ../scss/_home.scss */
+/* line 70, ../scss/_home.scss */
 .name {
   text-align: center;
 }
 
-/* line 73, ../scss/_home.scss */
+/* line 74, ../scss/_home.scss */
 .title {
   text-align: center;
 }
 
 /*ABOUT*/
-/* line 79, ../scss/_home.scss */
+/* line 80, ../scss/_home.scss */
 .about {
   background: #a7b8c5 url(../images/bkg-blue-01.png) no-repeat top left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  min-height: 615px;
-  height: 100%;
+  background-attachment: fixed;
+  min-height: 1000px;
+  height: 90%;
 }
 
-/* line 86, ../scss/_home.scss */
+/* line 88, ../scss/_home.scss */
 .largecloud {
   padding-top: 115px;
 }
 
-/* line 90, ../scss/_home.scss */
+/* line 92, ../scss/_home.scss */
 .smallcloud {
   padding-top: 80px;
 }
 
-/* line 94, ../scss/_home.scss */
+/* line 96, ../scss/_home.scss */
 .smallcloud2 {
   padding-top: 60px;
   margin: 0px -45px;
 }
 
-/* line 99, ../scss/_home.scss */
+/* line 101, ../scss/_home.scss */
 .righttype {
   padding-top: -60px;
 }
 
-/* line 103, ../scss/_home.scss */
+/* line 105, ../scss/_home.scss */
 .darkgray {
   color: #4b4b4b;
 }
 
-/* line 107, ../scss/_home.scss */
+/* line 109, ../scss/_home.scss */
 .bottom-word {
   margin-top: -20px;
 }
 
-/* line 110, ../scss/_home.scss */
+/* line 112, ../scss/_home.scss */
 .orange {
   color: #ff3a19;
 }
 
-/* line 114, ../scss/_home.scss */
+/* line 116, ../scss/_home.scss */
 .righttype {
   margin-top: -100px;
 }
 
-/* line 118, ../scss/_home.scss */
+/* line 120, ../scss/_home.scss */
 .hello {
   margin-top: -300px;
 }
 
-/* line 122, ../scss/_home.scss */
-.software {
-  margin-bottom: 50px;
+/* line 124, ../scss/_home.scss */
+.softwareback {
+  padding-top: 100px;
+}
+
+/* line 128, ../scss/_home.scss */
+.softwarefront {
+  padding-bottom: 200px;
 }
 
 /*WORK*/
-/* line 127, ../scss/_home.scss */
+/* line 133, ../scss/_home.scss */
 .work {
   background: #d7d7d7 url(../images/bkg-ltgray-01.png) no-repeat top left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  min-height: 612px;
-  height: 100%;
+  height: 90%;
   margin: 0;
 }
 
-/* line 135, ../scss/_home.scss */
+/* line 140, ../scss/_home.scss */
 .brain {
-  padding-top: 260px;
+  padding-top: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /*CONTACT*/
-/* line 144, ../scss/_home.scss */
+/* line 149, ../scss/_home.scss */
 .contact {
   background: #676767 url(../images/bkg-gray-01.png) no-repeat top left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  min-height: 612px;
-  height: 100%;
+  background-attachment: fixed;
+  min-height: 350px;
+  height: 80%;
   margin: 0;
 }
 
-/* line 152, ../scss/_home.scss */
+/* line 158, ../scss/_home.scss */
 .line {
-  padding-top: 175px;
+  padding-top: 150px;
 }
 
-/* line 156, ../scss/_home.scss */
-.drop {
-  margin-top: -155px;
+/* line 162, ../scss/_home.scss */
+.font {
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0px;
+  padding: -20px;
+}
+
+/* line 169, ../scss/_home.scss */
+.font2 {
+  font-size: 24px;
+}
+
+/* line 173, ../scss/_home.scss */
+.mind {
+  color: #4b4b4b;
+}
+
+/* line 177, ../scss/_home.scss */
+.email {
+  text-align: right;
+  padding-top: 25px;
+  margin: 0px;
+  margin-right: -20px;
+}
+
+/* line 184, ../scss/_home.scss */
+.gmail {
+  color: #d7d7d7;
+  font-size: 21px;
+  font-weight: 500;
+  margin: 0px;
+  padding-left: -10px;
+  padding-top: 32px;
 }

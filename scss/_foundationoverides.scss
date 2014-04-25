@@ -3,11 +3,23 @@
   padding: 0px;
 }
 
+
+[data-magellan-expedition-clone]{
+  display: none;
+}
+
+.sub-nav{
+  height:50px;
+  margin-top:15px;
+}
+
 .sub-nav dd.active a{
-  background:transparent url('../images/bubble.png') no-repeat center center;
+  background:transparent url('../images/bubble.png') no-repeat 50% 63%;
+  background-size:103%;
+  padding:30px 15px;
 
   &:hover{
     background:transparent;
-    opacity:0.8;
+    opacity:1.2;
   }
 }
